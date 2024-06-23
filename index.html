@@ -13,18 +13,24 @@
     <title>Тестовое задание github.com/shangriev</title>
   </head>
   <body>
-    <section>
-      <article>
-        <div class="circle"></div>
-        <div class="block-info">
-          <p class="checklist">Чеклист</p>
+    <div class="block">
+      <div class="progress-bar">
+        <div class="circle" style="--progress: 2">
+          <p class="progress-counter">0/7</p>
+          <svg viewBox="0 0 60 60">
+            <circle class="circle-progress" cx="30" cy="30" r="30"></circle>
+            <circle class="circle-bg" cx="30" cy="30" r="30"></circle>
+          </svg>
+        </div>
+        <div class="results">
+          <div class="checklist">Чеклист</div>
           <p class="completed">Выполнено: 0 из 7 действий</p>
           <p class="actions">
             Следующее действие: Созвониться с клиентом до 23.05.24 12:00
           </p>
         </div>
         <button>Открыть чеклист</button>
-      </article>
-    </section>
+      </div>
+    </div>
   </body>
 </html>
